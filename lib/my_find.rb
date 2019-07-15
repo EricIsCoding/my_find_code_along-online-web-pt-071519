@@ -5,6 +5,6 @@ def my_find(collection)
   yield_returns = []
   while i < collection.length
   yield(collection[i])
-  i += 0
+  i += 1
   end
 end
